@@ -1,0 +1,43 @@
+1a pregunta- correcte
+2a Pregunta-
+echo només treu coses per pantalla, qui necessia escritura és >
+rm escritura i execució
+mv només necessita wx als dos directoris
+touch wx sobre el dir.
+
+Tercera:
+No a /home/aso hauries de tenir root profe rwx --x
+shared folder rwx rwx
+
+La resta hauría de ser: rwx --- ---
+
+4a pregunta: sempre privat
+
+5a- Realment és un problema de routing i d'assignació d'IP, necessito més
+detalls per poder-te ajudar.
+
+6a- Un punt de muntatge és un directori a partir del qual muntem un sistema de
+fitxers diferent que permet integrar-lo dins de la nostra jerarquia de
+directoris. Internament es creen uns virtual inodes que permeten enllaçar el
+punt de muntatge al directori . del dispositiu i el .. del root del dispositiu
+al punt de muntatge.
+
+7a- un protocol no orientat a connexió és que no manté estat entre els
+interlocutors, el que implica que i hi ha un "crash" no té impacte sobre el
+protocol i per extensió més robust a fallades.
+
+8a- que només ho puguin utilitzar dos usuaris implica crear un /etc/cron.allow
+i posar-li el timer-user
+El crontab està bé (tot i que no és la versió que explico a classe)
+
+9a- Enguany no ho he explicat, els processos de 0KB són threads del kernel
+
+10- totes bé
+
+11- puc posar-la si, és pregunta de teoria.
+
+12- MAC: Mandatory Access Control, no us ho preguntaré
+
+La dels noms: cap diferència, només que no s'utilitza el flag x als devices
+
+René
